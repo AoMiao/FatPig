@@ -1,0 +1,4 @@
+set PROTOCOL=http
+export PROTOCOL=http
+
+mvn install:install-file -Dfile=C:\Users\AooMiao\Desktop\beautyeye_lnf.jar -DgroupId=org.beautyeye -DartifactId=beautyeye -Dversion=0.0.1 -Dpackaging=jar
